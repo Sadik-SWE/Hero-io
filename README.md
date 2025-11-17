@@ -1,16 +1,64 @@
-# React + Vite
+# MyApp Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application to explore, install, and manage apps with real-time tracking of downloads, ratings, and reviews. Built with React, React Router, and Recharts.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Features  
+2. Demo  
+3. Tech Stack  
+4. Usage  
+5. Screenshots  
+6. Contributing  
+7. License  
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Browse all available applications with a search functionality.  
+View detailed app information including downloads, ratings, reviews, and descriptions.  
+Install and uninstall apps with browser storage persistence.  
+Sort installed apps by size.  
+Visualize ratings using interactive bar charts.  
+Fully responsive design for both desktop and mobile devices.  
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A live demo link (if hosted):  
+[Live Demo](#)
+
+## Tech Stack
+
+Frontend: React, Tailwind CSS, React Router DOM  
+Charts: Recharts  
+Notifications: React Toastify  
+Data Storage: Browser LocalStorage  
+Assets: PNG icons for downloads, ratings, reviews, and dropdown menus  
+
+## Usage
+
+Navigate to the Apps page to browse all available applications.  
+Use the search bar to filter apps by title or name.  
+Click on any app to view its detailed page.  
+Install apps by clicking Install Now, which saves them in the browser’s storage.  
+Manage installed apps on the Installed Apps page, where apps can be uninstalled or sorted by size.  
+
+## Screenshots
+
+![Apps Page](./screenshots/apps-page.png)  
+![App Details](./screenshots/app-details.png)  
+![Installed Apps](./screenshots/installed-apps.png)  
+
+## Contributing
+
+Contributions are welcome! You can:
+
+Fork the project.  
+Make your changes and improvements.  
+Open a Pull Request to merge your changes.  
+
+## License
+
+This project is licensed under the MIT License.  
+See the LICENSE file for details.  
+
+Made with ❤️ by Sadik
